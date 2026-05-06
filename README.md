@@ -6,38 +6,60 @@ A Machine Learning-based Intrusion Detection System (IDS) designed to detect **S
 
 ## Project Overview
 
-This project focuses on building an efficient Network Intrusion Detection System (NIDS) capable of identifying brute force attacks by leveraging machine learning models.
+This project explores the design and implementation of a Machine Learning-based Intrusion Detection System (IDS) using the CSE-CIC-IDS-2018 dataset, with a focused analysis on SSH and FTP brute force attacks. The workflow includes data preprocessing, exploratory data analysis (EDA), normalization, and feature reduction techniques to optimize model performance while minimizing computational complexity.
 
-Key highlights:
-- Dataset: CIC-IDS-2018 (Brute Force subset)
-- Attacks covered: SSH & FTP brute force
-- Algorithms used:
-  - Decision Tree (DT)
-  - Random Forest (RF)
-  - K-Nearest Neighbors (KNN)
-  - Naïve Bayes
-  - Multi-Layer Perceptron (MLP)
+Multiple machine learning algorithms were evaluated, including Decision Tree (DT), Naïve Bayes, K-Nearest Neighbors (KNN), Multi-Layer Perceptron (MLP), and Random Forest (RF). Among these, Decision Tree and Random Forest demonstrated superior performance in terms of accuracy, efficiency, and scalability.
 
 ---
 
 ## Key Contributions
 
-- Large-scale dataset analysis for malicious traffic detection  
-- Feature selection using Random Forest importance  
-- Performance optimization (CPU time & model size)  
-- High accuracy detection models for real-time IDS  
+* Conducted in-depth analysis of large-scale network traffic data related to brute force attacks using the CIC-IDS-2018 dataset
+* Identified critical feature dimensions influencing classification performance, improving detection accuracy
+* Designed and evaluated ML-based models for detecting SSH and FTP brute force attacks in a NIDS context
+* Utilized a custom data collection setup to ensure relevant and high-quality input data
+* Performed comprehensive performance evaluation, including accuracy metrics, CPU processing time, and model size for real-world feasibility
+
+The results highlight the importance of algorithm selection in IDS design, with Decision Tree and Random Forest models achieving high precision, recall, F1-score, and overall accuracy. Their fast training and prediction times make them well-suited for real-time intrusion detection environments.
+
+Additionally, the use of feature selection techniques, particularly Random Forest-based importance ranking, significantly reduced model complexity while improving processing efficiency. This enables scalable deployment of IDS solutions in dynamic and resource-constrained environments.
+
+---
+
+## Workflow
+- 1. Data Cleaning & Preprocessing
+- 2. Exploratory Data Analysis (EDA)
+- 3. Feature Scaling & Normalization
+- 4. Feature Selection (Random Forest-based)
+- 5. Model Training
+- 6. Evaluation & Comparison
 
 ---
 
 ## System Architecture
 
-![Architecture](Media/Architecture-Final.jpg)
+<p align="center">
+  <img src="Media/Architecture-Final.jpg" width="700"/>
+</p>
 
 ---
 
-## Model Performance
+## Analysis
 
-![Performance](Media/PerformanceAnalysis.png)
+### Model Performance
+<p align="center">
+  <img src="Media/PerformanceAnalysis.jpg" width="700"/>
+</p>
+
+### Training Time Comparision
+<p align="center">
+  <img src="Media/Training.jpg" width="700"/>
+</p>
+
+### Prediction Time Comparision
+<p align="center">
+  <img src="Media/Prediction.jpg" width="700"/>
+</p>
 
 - Decision Tree & Random Forest achieved the best results:
   - High Accuracy
@@ -46,19 +68,7 @@ Key highlights:
 
 ---
 
-## Training & Prediction
+## 📺 Project Presentation
 
-### Training Phase
-![Training](Media/Training.jpg)
-
-### Prediction Output
-![Prediction](Media/Prediction.jpg)
-
----
-
-## Packet Collection Demo
-
-<video src="media/videos/CollectingPackets.mp4" controls width="600"></video>
-
----
+[![Watch the Presentation](https://img.youtube.com/vi/xNbwOLb--6Y/0.jpg)](https://www.youtube.com/watch?v=xNbwOLb--6Y)
 
