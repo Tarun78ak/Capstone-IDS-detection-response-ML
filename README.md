@@ -2,15 +2,11 @@
 
 A Machine Learning-based Intrusion Detection System (IDS) designed to detect **SSH and FTP brute force attacks** using the **CSE-CIC-IDS-2018 dataset**.
 
----
-
 ## Project Overview
 
 This project explores the design and implementation of a Machine Learning-based Intrusion Detection System (IDS) using the CSE-CIC-IDS-2018 dataset, with a focused analysis on SSH and FTP brute force attacks. The workflow includes data preprocessing, exploratory data analysis (EDA), normalization, and feature reduction techniques to optimize model performance while minimizing computational complexity.
 
 Multiple machine learning algorithms were evaluated, including Decision Tree (DT), Naïve Bayes, K-Nearest Neighbors (KNN), Multi-Layer Perceptron (MLP), and Random Forest (RF). Among these, Decision Tree and Random Forest demonstrated superior performance in terms of accuracy, efficiency, and scalability.
-
----
 
 ## Key Contributions
 
@@ -24,8 +20,6 @@ The results highlight the importance of algorithm selection in IDS design, with 
 
 Additionally, the use of feature selection techniques, particularly Random Forest-based importance ranking, significantly reduced model complexity while improving processing efficiency. This enables scalable deployment of IDS solutions in dynamic and resource-constrained environments.
 
----
-
 ## Workflow
 - 1. Data Cleaning & Preprocessing
 - 2. Exploratory Data Analysis (EDA)
@@ -34,26 +28,22 @@ Additionally, the use of feature selection techniques, particularly Random Fores
 - 5. Model Training
 - 6. Evaluation & Comparison
 
----
-
 ## System Architecture
 
 <p align="center">
-  <img src="Media/Architecture-Final.jpg" width="700"/>
+  <img src="Media/Architecture-Final.jpg" width="400"/>
 </p>
-
----
 
 ## Analysis
 
 ### Model Performance
 <p align="center">
-  <img src="Media/PerformanceAnalysis.jpg" width="700"/>
+  <img src="Media/PerformanceAnalysis.jpg" width="400"/>
 </p>
 
 ### Training Time Comparision
 <p align="center">
-  <img src="Media/Training.jpg" width="700"/>
+  <img src="Media/Training.jpg" width="400"/>
 </p>
 
 ### Prediction Time Comparision
@@ -66,9 +56,6 @@ Additionally, the use of feature selection techniques, particularly Random Fores
   - Strong Precision & Recall
   - Fast Training & Prediction
 
----
-
 ## 📺 Project Presentation
 
 [![Watch the Presentation](https://img.youtube.com/vi/xNbwOLb--6Y/0.jpg)](https://www.youtube.com/watch?v=xNbwOLb--6Y)
-
