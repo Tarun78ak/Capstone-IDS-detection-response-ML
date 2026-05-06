@@ -31,13 +31,13 @@ Key highlights:
 
 ## System Architecture
 
-![Architecture](media/images/Architecture-Final.jpg)
+![Architecture](Media/Architecture-Final.jpg)
 
 ---
 
 ## Model Performance
 
-![Performance](media/images/PerformanceAnalysis.png)
+![Performance](Media/PerformanceAnalysis.png)
 
 - Decision Tree & Random Forest achieved the best results:
   - High Accuracy
@@ -49,10 +49,10 @@ Key highlights:
 ## Training & Prediction
 
 ### Training Phase
-![Training](media/images/Training.jpg)
+![Training](Media/Training.jpg)
 
 ### Prediction Output
-![Prediction](media/images/Prediction.jpg)
+![Prediction](Media/Prediction.jpg)
 
 ---
 
