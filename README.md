@@ -56,6 +56,6 @@ Additionally, the use of feature selection techniques, particularly Random Fores
   - Strong Precision & Recall
   - Fast Training & Prediction
 
-## 📺 Project Presentation - Youtube
+## Project Presentation - Youtube
 
 [![Watch the Presentation](https://img.youtube.com/vi/xNbwOLb--6Y/0.jpg)](https://www.youtube.com/watch?v=xNbwOLb--6Y)
